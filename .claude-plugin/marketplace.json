@@ -1,0 +1,13 @@
+{
+  "name": "alice-skills",
+  "owner": {
+    "name": "aliyusufergin"
+  },
+  "plugins": [
+    {
+      "name": "alice-skills",
+      "source": "./",
+      "description": "Intent-first skills for building with coding agents: clarify, survey, spec, step and steer."
+    }
+  ]
+}
