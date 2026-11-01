@@ -1,9 +1,9 @@
 ---
 name: steer
-description: Absorb a new idea or change of mind into a build already underway while keeping its thread. Use when the user adds or changes something after a spec exists.
+description: Absorb a new idea or change of mind into a build already underway while keeping its thread. Use when the user adds or changes something after work has started.
 ---
 
-Fold the change into the existing work so that a fresh agent reading the record would build the new reality. Read the spec and record first, and bring any step in progress to a safe point.
+Fold the change into the existing work so that a fresh agent reading the record would build the new reality. Read the spec and record, if there are any, and bring any step in progress to a safe point.
 
 Sort the change, asking only what the sorting needs:
 
