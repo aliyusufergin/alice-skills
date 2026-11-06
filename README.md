@@ -1,6 +1,6 @@
 # alice-skills
 
-Intent-first skills for working with agents, on code or anything else. They state what good looks like and leave the how to the model. They stay firm only at the boundaries: who may change what, and what one agent hands to the next.
+Intent-first Claude Code skills for working on code or anything else. They state what good looks like and leave the how to the model. They stay firm only at the boundaries: who may change what, and what one agent hands to the next.
 
 ```text
 /clarify → /survey → /spec → /step → /step → ... → done

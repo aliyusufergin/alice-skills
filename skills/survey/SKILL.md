@@ -30,6 +30,6 @@ Each with your recommendation.
 ## Sources
 ```
 
-What any later agent in this project should know about the domain, such as its terms, how work here is checked and its traps, goes to `.work/knowledge.md` instead, merged with what is there.
+What any later agent in this project should know about the domain, such as its terms, how work here is checked and its traps, goes to `.work/knowledge.md` instead, merged with what is there. When you create it, add `@.work/knowledge.md` to the project's `CLAUDE.md` so every session loads it; keep it short for the same reason.
 
 Report the bottom line and the open decisions to the user.

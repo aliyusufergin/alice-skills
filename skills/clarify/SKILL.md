@@ -11,4 +11,4 @@ Say the intent back wider than they stated it, including what they probably want
 
 Ask only when the answer changes what gets made and you can neither discover it nor cheaply reverse it later. Put each question with your recommended answer, all in one round. Take a further round only when an answer opens a new question that passes the same test. Everything else is your call: name it as an assumption so it stays easy to change.
 
-You are done when you can state the intent in a few sentences and the user agrees. Then recommend where to go next, and let them choose: work that fits in one session can simply be done and saved as a checkpoint, and work that spans sessions goes to the spec skill. Either way, the survey skill comes first when the approach is open or the territory unfamiliar.
+You are done when you can state the intent in a few sentences and the user agrees. Then recommend where to go next, and let them choose: work that fits in one session can simply be done and saved as a checkpoint, and work that spans sessions goes to `/spec`. Either way, `/survey` comes first when the approach is open or the territory unfamiliar.

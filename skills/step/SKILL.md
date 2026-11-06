@@ -7,19 +7,19 @@ Move the work toward the spec's intent, one verified step at a time, so that any
 
 ## The work record
 
-Lives in `.work/<feature>/`, unless the project's agent instructions name another place.
+Lives in `.work/<feature>/`, unless the project's `CLAUDE.md` names another place.
 
 - `spec.md`: intent, commitments, not doing, done means, assumptions, and a rough route with milestones.
 - `next.md`: the handover. Overwritten every step.
 - `journal.md`: decisions and departures from the route that are still true, one or two lines each. Correct or remove an entry when it stops being true.
 
-`.work/knowledge.md` is shared by all work in the project: what any later agent should know about the domain, such as its terms, how work here is checked and its traps.
+`.work/knowledge.md` is shared by all work in the project: what any later agent should know about the domain, such as its terms, how work here is checked and its traps. When you create it, add `@.work/knowledge.md` to the project's `CLAUDE.md` so every session loads it; keep it short for the same reason.
 
-No spec means this skill does not apply yet: small work can simply be done, larger work starts with the spec skill.
+No spec means this skill does not apply yet: small work can simply be done, larger work starts with `/spec`.
 
 ## Authority
 
-The route, assumptions and `next.md` are yours to change as you learn; decide these yourself and report what you decided. Changes the user brings go through the steer skill. Intent, commitments, "not doing" and "done means" belong to the user: record their decisions in the words they used, and when the work conflicts with one, stop and ask.
+The route, assumptions and `next.md` are yours to change as you learn; decide these yourself and report what you decided. Changes the user brings go through `/steer`. Intent, commitments, "not doing" and "done means" belong to the user: record their decisions in the words they used, and when the work conflicts with one, stop and ask.
 
 ## A step
 
