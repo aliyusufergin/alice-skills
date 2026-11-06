@@ -1,6 +1,6 @@
 {
   "name": "alice-skills",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Intent-first skills for building with coding agents: clarify, survey, spec, step and steer.",
   "author": {
     "name": "aliyusufergin"

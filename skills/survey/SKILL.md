@@ -1,11 +1,11 @@
 ---
 name: survey
-description: Survey how others have solved this problem and its neighbours before committing to an approach. Use when the intent is clear but the approach is open or the territory unfamiliar.
+description: Survey how others have solved this problem and its neighbours before committing to an approach. Use when the intent is clear but the approach is open or the territory unfamiliar, including an approach reopened mid-work.
 ---
 
-Learn what should change the plan before anyone commits to it, including whether this needs building at all.
+Learn what should change the plan before anyone commits to it, including whether this needs making at all.
 
-Look wider than an exact match: existing tools, adjacent problems whose solutions transfer, known failures, current practice, and what this codebase already has. Favour primary sources, and keep what a source shows apart from what you infer. Delegate the reading to subagents so this session stays light.
+Look wider than an exact match: existing tools, adjacent problems whose solutions transfer, known failures, current practice, and what the project already has. Favour primary sources, and keep what a source shows apart from what you infer. Delegate the reading to subagents so this session stays light.
 
 Stop when further reading would no longer change your recommendation.
 
@@ -29,5 +29,7 @@ Each with your recommendation.
 
 ## Sources
 ```
+
+What any later agent in this project should know about the domain, such as its terms, how work here is checked and its traps, goes to `.work/knowledge.md` instead, merged with what is there.
 
 Report the bottom line and the open decisions to the user.
