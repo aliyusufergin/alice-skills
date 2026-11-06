@@ -1,5 +1,6 @@
 ---
 name: spec
+disable-model-invocation: true
 description: Write the smallest spec that lets a fresh agent do the intended work safely. Use when clarified work will span more than one session and has no spec yet.
 ---
 
