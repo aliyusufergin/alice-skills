@@ -7,7 +7,7 @@
     {
       "name": "alice-skills",
       "source": "./",
-      "description": "Intent-first skills for building with coding agents: clarify, survey, spec, step and steer."
+      "description": "Intent-first Claude Code skills for code or any other work: clarify, survey, spec, step, steer and ask-alice."
     }
   ]
 }

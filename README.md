@@ -15,8 +15,9 @@ Every skill is optional. Small, clear work needs none of them.
 | `clarify` | Understand and widen the intent, asking only what matters |
 | `survey` | Learn from existing tools and neighbouring problems |
 | `spec` | Write the smallest spec a fresh agent can work from safely |
-| `step` | Do one verified step and leave the next one ready |
+| `step` | Continue the work in verified steps, keeping the next one ready |
 | `steer` | Fold a new idea or change of mind into work underway |
+| `ask-alice` | Map of the flow, the record and how to explain both to the user |
 
 The skills hold no domain knowledge. What the work learns about its domain, including how work there is checked, goes to `.work/knowledge.md`.
 

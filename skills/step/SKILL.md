@@ -15,7 +15,7 @@ Lives in `.work/<feature>/`, unless the project's `CLAUDE.md` names another plac
 
 `.work/knowledge.md` is shared by all work in the project: what another piece of work here would need to know, such as the domain's terms, how work here is checked, its traps, and lasting facts about the user and their situation. Each fact lives in one place: here, or in the spec, journal or `next.md`. When you create it, add `@.work/knowledge.md` to the project's `CLAUDE.md` so every session loads it; keep it short for the same reason.
 
-No spec means this skill does not apply yet: small work can simply be done, larger work starts with `/spec`.
+No spec means this skill does not apply yet: small work can simply be done, larger work starts with `/spec`. When unsure where this work goes next, or how to explain the flow to the user, load `ask-alice`.
 
 ## Authority
 

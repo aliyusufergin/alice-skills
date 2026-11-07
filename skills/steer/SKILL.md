@@ -12,3 +12,5 @@ Sort each change, asking only what the sorting needs:
 - **A separate piece of work:** add one line to `.work/parked.md` and carry on with the current work.
 
 Tell the user which case you chose, so they can overrule it. Work resumes once any confirmation you need has come.
+
+When unsure where this work goes next, or how to explain the flow to the user, load `ask-alice`.
