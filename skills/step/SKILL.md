@@ -48,7 +48,7 @@ Continue to the next step without asking, unless you reach one of these stops:
 
 Keep what you say to the user at a stop short enough to read at a glance.
 
-Stay in this session while the work continues; after a compaction, re-read the record and trust it over the summary. Suggest a fresh session when the topic changes. The record is current after every step, so ending costs nothing.
+Stay in this session while the work continues; after a compaction, re-read the record and trust it over the summary. Suggest a fresh session only when the user turns to work that would have its own spec; the next step of the route is the same work. The record is current after every step, so ending costs nothing.
 
 ## Independent check
 
