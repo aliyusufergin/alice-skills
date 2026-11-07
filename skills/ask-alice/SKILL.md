@@ -19,14 +19,7 @@ The usual path is clarify, then survey if needed, then spec, then step after ste
 
 ## The record
 
-Work that spans sessions lives in `.work/<feature>/`, unless the project's `CLAUDE.md` names another place:
-
-- `spec.md`: intent, commitments, not doing, done means, assumptions and route. The user owns everything but the route and assumptions.
-- `next.md`: the handover to the next session.
-- `journal.md`: decisions and departures that are still true.
-- `survey.md`: what the survey found.
-
-`.work/knowledge.md` holds what any piece of work in the project would need to know, and `CLAUDE.md` loads it into every session. `.work/parked.md` holds separate ideas for later.
+Work that spans sessions keeps its spec, handover (`next.md`), journal, a list of finished items (`done.md`) and any survey in `.work/<name>/`. The user owns the spec except its route and assumptions. `.work/knowledge.md` is shared by all work in the project, and `.work/parked.md` holds separate ideas for later. `/step` describes each file.
 
 ## Telling the user
 

@@ -9,7 +9,7 @@ Look wider than an exact match: existing tools, adjacent problems whose solution
 
 Stop when further reading would no longer change your recommendation.
 
-For work that fits in one session, report in the conversation and write no file. Otherwise write `.work/<feature>/survey.md`. Leave out any section with nothing that bears on a decision:
+For work that fits in one session, report in the conversation and write no file. Otherwise write `.work/<name>/survey.md`. Leave out any section with nothing that bears on a decision:
 
 ```markdown
 ## Intent
@@ -30,6 +30,6 @@ Each with your recommendation.
 ## Sources
 ```
 
-What another piece of work in this project would need to know, such as the domain's terms, how work here is checked and its traps, goes to `.work/knowledge.md` instead, merged with what is there and written in one place only. When you create it, add `@.work/knowledge.md` to the project's `CLAUDE.md` so every session loads it; keep it short for the same reason.
+What another piece of work in the project would need to know, such as the domain's terms, how work here is checked and its traps, goes to `.work/knowledge.md` instead. When you create that file, add `@.work/knowledge.md` to the project's `CLAUDE.md`.
 
 Report the bottom line and the open decisions to the user.

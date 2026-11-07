@@ -34,6 +34,10 @@ In Claude Code:
 /plugin install alice-skills@alice-skills
 ```
 
+## Hooks
+
+The plugin runs a small shell script (`hooks/compact.sh`) around each compaction. When the project has work in `.work/`, it reminds the summary and the agent that the record there is the source of truth; otherwise it prints nothing. It needs `sh`, so on Windows it works only with Git Bash or WSL.
+
 ## Recommended setting
 
 Add this to `~/.claude/settings.json` so that `step` can suggest compacting at the end of a step, once more than 150,000 tokens of context are in use:

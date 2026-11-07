@@ -1,6 +1,6 @@
 {
   "name": "alice-skills",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "description": "Intent-first Claude Code skills for code or any other work: clarify, survey, spec, step, steer and ask-alice.",
   "author": {
     "name": "aliyusufergin"
