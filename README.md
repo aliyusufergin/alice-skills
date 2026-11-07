@@ -34,6 +34,16 @@ In Claude Code:
 /plugin install alice-skills@alice-skills
 ```
 
+## Recommended setting
+
+Add this to `~/.claude/settings.json` so that `step` can suggest compacting at the end of a step, once more than 150,000 tokens of context are in use:
+
+```json
+"totalTokensReminder": "countdown"
+```
+
+It shows the agent how many tokens are left in the context window. The setting is undocumented and may change; without it, `step` simply never suggests compacting.
+
 ## License
 
 MIT

@@ -50,6 +50,8 @@ Keep what you say to the user at a stop short enough to read at a glance.
 
 Stay in this session while the work continues; after a compaction, re-read the record and trust it over the summary. Suggest a fresh session only when the user turns to work that would have its own spec; the next step of the route is the same work. The record is current after every step, so ending costs nothing.
 
+If the session shows how many tokens are left, and that count has dropped by more than 150,000 since the session or the last compaction began, suggest `/compact` at the end of that step, at most once per step; the record is current, so nothing is lost. Without that count, do not suggest it. The count decides only when to suggest compacting; it never changes how much a step does.
+
 ## Independent check
 
 At every milestone, at the end of the work, and at any step you judge risky, start a fresh subagent that sees only the spec and what changed since the last check (at the end, the whole work), never your reasoning. Run it before handing over. Ask it to find where the work falls short of the spec or of what the user has been told exists, could realistically lose or corrupt what the user trusts it with, or has grown beyond the spec's scale. Fix those, preferring fixes that make the work smaller, then report to the user at a milestone. Other findings go in your report, unfixed, for the user to weigh.
