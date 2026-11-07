@@ -7,7 +7,7 @@ Move the work toward the spec's intent one verified step at a time, so that any 
 
 ## The record
 
-`.work/<name>/` holds the work's record, unless the project's `CLAUDE.md` names another place:
+`.work/<name>/` holds the work's record:
 
 - `spec.md`: what the user wants and what done means.
 - `next.md`: the handover, overwritten every step.

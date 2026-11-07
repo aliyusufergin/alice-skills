@@ -8,5 +8,5 @@ done
 [ -z "$work" ] && exit 0
 case "$1" in
   pre) echo "Work in progress is recorded in .work/ (${work# }). Name it in the summary and note that its record there is the source of truth." ;;
-  post) echo "This session was just compacted. Work in progress is recorded in .work/ (${work# }). Before continuing it, re-read its spec.md, journal.md and next.md, and trust them over the summary." ;;
+  post) echo "This session was just compacted. Work in progress is recorded in .work/ (${work# }). Before continuing it, re-read its spec.md, next.md, journal.md and done.md, and trust them over the summary." ;;
 esac

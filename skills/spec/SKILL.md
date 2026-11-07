@@ -35,6 +35,6 @@ Then have a fresh subagent that sees only the spec look for contradictions and f
 
 ## The record
 
-The spec lives at `.work/<name>/spec.md`, beside `next.md` and `journal.md`, unless the project's `CLAUDE.md` names another place.
+The spec lives at `.work/<name>/spec.md`, beside the rest of the work's record.
 
 Write the first `next.md` in the `/step` handover format, with the first goal as its proposal, show the user the spec, and once they approve it, point them to `/step`.
