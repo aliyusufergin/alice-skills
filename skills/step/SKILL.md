@@ -25,7 +25,7 @@ The route, assumptions and `next.md` are yours: change them as you learn and rep
 1. **Orient.** Read the record and the work's recent history, and check the current state in proportion to how much will rest on it. The handover is one agent's claims and proposal, not instructions.
 2. **Choose** the smallest coherent progress you can verify. Journal why when you depart from the proposal.
 3. **Do and verify.** Work to the scale the spec describes, and check the result the way "done means" says and its user would. A defect in this work, or in what it rests on, belongs to this step. Name for the user what you cannot check here.
-4. **Hand over.** Move finished items from the route to `done.md`, update the journal and knowledge file, overwrite `next.md`, then save the work and the record together as a checkpoint you could return to:
+4. **Hand over.** Move finished items from the route to `done.md`; update the journal, assumptions and knowledge file, removing what is no longer true; overwrite `next.md`; then save the work and the record together as a checkpoint you could return to:
 
    ```markdown
    ## Facts
