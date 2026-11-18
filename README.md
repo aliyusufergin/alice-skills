@@ -13,7 +13,7 @@ Every skill is optional. Small, clear work needs none of them.
 | Skill | Purpose |
 |---|---|
 | `clarify` | Understand and widen the intent, asking only what matters |
-| `survey` | Learn from existing tools and neighbouring problems |
+| `survey` | Research the approach: current guidance, good practice and pitfalls |
 | `spec` | Write the smallest spec a fresh agent can work from safely |
 | `step` | Continue the work in verified steps, keeping the next one ready |
 | `steer` | Fold a new idea or change of mind into work underway |
